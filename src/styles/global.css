@@ -60,10 +60,11 @@ html {
 .view_my_work_btn:hover {
     background-color: white;
     color: black;
-    border-style: none;
+    border: 1px solid #fff;
     cursor: pointer;
 }
 
 .view_my_work_btn:focus {
     outline: none;
+    border: 1px solid #fff;
 }

@@ -8,6 +8,7 @@
   filter: brightness(0) invert(1);
   padding-left: 50px;
   padding-right: 50px;
+  transition: 0.3s ease;
 }
 
 .logo:hover {

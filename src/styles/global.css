@@ -55,6 +55,7 @@ html {
     letter-spacing: 7px;
     font-size: 25px;
     border: 1px solid #E0E262;
+    transition: 0.3s ease;
 }
 
 .view_my_work_btn:hover {

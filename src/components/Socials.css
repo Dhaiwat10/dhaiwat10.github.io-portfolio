@@ -11,6 +11,15 @@
   transition: 0.3s ease;
 }
 
+@media (min-height: 600px) {
+  .logo {
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
 .logo:hover {
   cursor: pointer;
   filter: none;

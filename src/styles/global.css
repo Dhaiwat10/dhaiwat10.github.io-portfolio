@@ -32,6 +32,12 @@ html {
     color: #E0E262;
 }
 
+@media (min-height: 600px) {
+    .name {
+        padding-top: 15vh;
+    }
+}
+
 .name h1 {
     margin-bottom: 0;
 }

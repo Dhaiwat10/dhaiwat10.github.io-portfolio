@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{RXBc:function(e,a,n){"use strict";n.r(a);var t=n("q1tI"),c=n.n(t);a.default=function(){return c.a.createElement("div",null,c.a.createElement("div",{className:"landing"},c.a.createElement("h1",{className:"name"},"DHAIWAT PANDYA"),c.a.createElement("div",{className:"tagline"},"FULL-STACK SOFTWARE ENGINEER"),c.a.createElement("button",{className:"view_my_work_btn"},"VIEW MY WORK")))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-9738df3011dccb355bdf.js.map

@@ -2,8 +2,20 @@ import React from "react"
 import "./Socials.css";
 
 export default() => (
-  <div className="row">
-    <a href="https://linkedin.com/in/dhaiwat-pandya" target="_blank"><img className="logo" src="images/linkedin.png"></img></a>
-    <a href="https://github.com/Dhaiwat10" target="_blank"><img className="logo" src="images/github.png"></img></a>
-  </div>
-) 
+    <div className="row">
+
+        <a
+            rel="noopener noreferrer"
+            href="https://linkedin.com/in/dhaiwat-pandya"
+            target="_blank">
+            <img alt="Link to my LinkedIn page" className="logo" src="images/linkedin.png"></img>
+        </a>
+
+        <a
+            rel="noopener noreferrer"
+            href="https://github.com/Dhaiwat10"
+            target="_blank">
+            <img alt="Link to my Github page" className="logo" src="images/github.png"></img>
+        </a>
+    </div>
+)

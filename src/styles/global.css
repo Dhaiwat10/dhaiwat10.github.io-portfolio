@@ -3,7 +3,6 @@
     src: url("../../static/Antonio-Bold.ttf");
     /* url('Antonio-Bold.eot'); IE */
 }
-
 @font-face {
     font-family: "Antonio-Regular";
     src: url("../../static/Antonio-Regular.ttf");
@@ -15,6 +14,7 @@ html {
     color: white;
     font-family: "Antonio-Bold", sans-serif;
     text-align: center;
+    transition: 0.3s ease-in;
 }
 
 .landing {
@@ -25,17 +25,11 @@ html {
 .name {
     margin: auto;
     text-align: center;
-    padding-top: 30vh;
+    padding-top: 15vh;
     margin-bottom: 10px;
-    letter-spacing: 20px;
-    font-size: 40px;
+    letter-spacing: 25px;
+    font-size: 60px;
     color: #E0E262;
-}
-
-@media (min-height: 600px) {
-    .name {
-        padding-top: 15vh;
-    }
 }
 
 .name h1 {
@@ -45,11 +39,9 @@ html {
 .tagline {
     font-family: "Antonio-Regular", sans-serif;
     font-weight: lighter;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin: 10px auto 30px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 3px;
 }
 
@@ -63,15 +55,29 @@ html {
     border: 1px solid #E0E262;
     transition: 0.3s ease;
 }
-
 .view_my_work_btn:hover {
     background-color: white;
     color: black;
     border: 1px solid #fff;
     cursor: pointer;
 }
-
 .view_my_work_btn:focus {
     outline: none;
     border: 1px solid #fff;
+}
+@media (min-width: 700px) {
+    .name {
+        font-size: 80px;
+        letter-spacing: 35px;
+        margin-bottom: 3vh;
+    }
+
+    .tagline {
+        font-size: 30px;
+        margin-bottom: 10vh;
+    }
+
+    .view_my_work_btn {
+        font-size: 40px;
+    }
 }

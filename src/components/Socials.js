@@ -3,7 +3,7 @@ import "./Socials.css";
 
 export default() => (
     <div className="row">
-
+        <h3>GET IN TOUCH</h3>
         <a
             rel="noopener noreferrer"
             href="https://linkedin.com/in/dhaiwat-pandya"

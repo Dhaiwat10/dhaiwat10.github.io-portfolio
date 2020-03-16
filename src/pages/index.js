@@ -1,5 +1,6 @@
 import React from "react"
 import Socials from "../components/Socials"
+import Skills from"../components/Skills"
 
 export default() => (
     <div>
@@ -13,9 +14,10 @@ export default() => (
             <button className="view_my_work_btn">
                 VIEW MY WORK
             </button>
-
             <Socials/>
         </div>
+        <Skills/>
+
 
     </div>
 )

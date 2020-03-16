@@ -2,6 +2,12 @@
     margin-top: 20vh;
 }
 
+h3 {
+  color: #E0E262 !important;
+  letter-spacing: 5px;
+  margin-bottom: 3vh;
+}
+
 .logo {
     height: auto;
     filter: brightness(0) invert(1);

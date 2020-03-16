@@ -2,7 +2,7 @@ import React from "react"
 
 import "./Skills.css"
 
-export default() => (
+export default () => (
   <div className="skills">
     <h1>SKILLS</h1>
 

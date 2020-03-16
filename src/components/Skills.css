@@ -23,9 +23,9 @@ h1 {
 }
 @media (min-height: 700px) {
   .logo {
-      width: 70px;
-      padding-left: 20px;
-      padding-right: 20px;
+    width: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 .logo:hover {

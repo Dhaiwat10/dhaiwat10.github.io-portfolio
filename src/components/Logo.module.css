@@ -1,0 +1,19 @@
+.Logo {
+  height: auto;
+  filter: brightness(0) invert(1);
+  width: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.3s ease;
+}
+@media (min-height: 700px) {
+  .Logo {
+      width: 70px;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+}
+.Logo:hover {
+  cursor: pointer;
+  filter: none;
+}

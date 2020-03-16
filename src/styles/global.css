@@ -1,83 +1,78 @@
 @font-face {
-    font-family: "Antonio-Bold";
-    src: url("../../static/Antonio-Bold.ttf");
-    /* url('Antonio-Bold.eot'); IE */
+  font-family: "Antonio-Bold";
+  src: url("../../static/Antonio-Bold.ttf");
+  /* url('Antonio-Bold.eot'); IE */
 }
 @font-face {
-    font-family: "Antonio-Regular";
-    src: url("../../static/Antonio-Regular.ttf");
-    /* url('Antonio-Bold.eot'); IE */
+  font-family: "Antonio-Regular";
+  src: url("../../static/Antonio-Regular.ttf");
+  /* url('Antonio-Bold.eot'); IE */
 }
 
 html {
-    background-color: #000;
-    color: white;
-    font-family: "Antonio-Bold", sans-serif;
-    text-align: center;
-    transition: 0.3s ease-in;
-}
-
-.landing {
-    height: 100vh;
-    margin: 0;
+  background-color: #000;
+  color: white;
+  font-family: "Antonio-Bold", sans-serif;
+  text-align: center;
+  transition: 0.3s ease-in;
 }
 
 .name {
-    margin: auto;
-    text-align: center;
-    padding-top: 10vh;
-    margin-bottom: 10px;
-    letter-spacing: 25px;
-    font-size: 50px;
-    color: #E0E262;
+  margin: auto;
+  text-align: center;
+  padding-top: 10vh;
+  margin-bottom: 10px;
+  letter-spacing: 25px;
+  font-size: 50px;
+  color: #e0e262;
 }
 
 .name h1 {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .tagline {
-    font-family: "Antonio-Regular", sans-serif;
-    font-weight: lighter;
-    margin: 10px auto 30px;
-    text-align: center;
-    font-size: 25px;
-    letter-spacing: 3px;
+  font-family: "Antonio-Regular", sans-serif;
+  font-weight: lighter;
+  margin: 10px auto 30px;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 3px;
 }
 
 .view_my_work_btn {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    font-family: "Antonio-Bold", sans-serif;
-    letter-spacing: 7px;
-    font-size: 25px;
-    border: 1px solid #E0E262;
-    transition: 0.3s ease;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-family: "Antonio-Bold", sans-serif;
+  letter-spacing: 7px;
+  font-size: 25px;
+  border: 1px solid #e0e262;
+  transition: 0.3s ease;
 }
 .view_my_work_btn:hover {
-    background-color: white;
-    color: black;
-    border: 1px solid #fff;
-    cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid #fff;
+  cursor: pointer;
 }
 .view_my_work_btn:focus {
-    outline: none;
-    border: 1px solid #fff;
+  outline: none;
+  border: 1px solid #fff;
 }
 @media (min-width: 700px) {
-    .name {
-        font-size: 80px;
-        letter-spacing: 35px;
-        margin-bottom: 3vh;
-    }
+  .name {
+    font-size: 80px;
+    letter-spacing: 35px;
+    margin-bottom: 3vh;
+  }
 
-    .tagline {
-        font-size: 30px;
-        margin-bottom: 10vh;
-    }
+  .tagline {
+    font-size: 30px;
+    margin-bottom: 10vh;
+  }
 
-    .view_my_work_btn {
-        font-size: 40px;
-    }
+  .view_my_work_btn {
+    font-size: 40px;
+  }
 }
